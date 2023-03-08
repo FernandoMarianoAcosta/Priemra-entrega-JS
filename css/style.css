@@ -1,0 +1,134 @@
+/* google fonts
+
+font-family: 'Cormorant', serif;
+font-family: 'Prata', serif;
+font-family: 'Yeseva One', cursive;
+
+color dorado: #BAA360
+
+*/
+
+
+
+/* Barra de navegacion */
+
+header {
+    position: sticky;top: 0;
+    z-index: 100;
+
+}
+
+
+
+.navbar-collapse{
+
+    align-items:center;
+    justify-content:space-between;
+}
+.navbar-brand p{
+    margin: 10px;
+    font-size: 15px;
+    color: black;
+    
+}
+.nav-item a {
+    color:black;
+}
+
+.nav-item a:hover{
+    font-size: 20px;
+    text-shadow:1px 1px  #c7c4ba;
+}
+
+
+/*Hero principal*/
+.contenido_foto{ 
+    background-image: url(../img/edificio-gigante-sol-encima.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.hero_pricipal img{
+ 
+}
+
+.hero_pricipal{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-imagen-logo{
+
+    width: 50%;
+    height:30rem;
+    filter: brightness(140%);
+}
+
+/* sobre nosotros */
+
+.experiencia{
+    margin-top: -40px;
+}
+
+.nosotros{
+    background-color:#EBE8E4;
+    
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    
+
+}
+#sobre_nosotros{
+
+    
+    text-align: center;
+    
+}
+
+.titulo{
+
+    font-family: 'Yeseva One', cursive;
+    color: #493922;
+    padding-top: 50px;
+    padding-bottom: 2px;
+    
+
+    
+
+}
+
+#sobre_nosotros p{
+
+    margin: 3rem;
+    padding-bottom: 50px;
+    text-align:center;
+    
+}
+
+.columna ul li{
+
+    list-style: none;
+    text-align: justify;
+    margin-left: 30%;
+}
+
+.experiencia_titulo{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.experiencia .columna:hover{
+
+    background-color: #e7d8ac;
+}
+
+
+
+
+
+
+
+
